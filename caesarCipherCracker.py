@@ -8,7 +8,7 @@ for key in range(len(SYMBOLS)):
     translated = ''
     
     # Loop through each symbol in the message
-    for sybol in message:
+    for symbol in message:
         if symbol in SYMBOLS:
             symbolIndex = SYMBOLS.find(symbol)
             translatedIndex = symbolIndex - key
